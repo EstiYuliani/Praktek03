@@ -20,6 +20,20 @@ public class BubukMinumanAksi {
                System.out.println(Hatta.getJenis());
                 System.out.print("Harganya \t: ");
                 System.out.println(Hatta.getHarga());
+                
+            PerlengkapanMinuman Tt = new PerlengkapanMinuman();
+            
+              Tt.setMerk("Starindo");
+              Tt.setJenis("Gelas Hot");
+              Tt.setGelasMinum("12 oz");
+              Tt.setSedotan("Ulir");
+              Tt.setHarga(40000);
+                   
+              Tt.cetakInfo ();
+              
+              System.out.println("Gelasminum : "+Tt.getGelasMinum());
+              System.out.println("Sedotan : "+Tt.getSedotan());
+              Tt.throttle ();
               
                     
         }
