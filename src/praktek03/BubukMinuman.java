@@ -8,7 +8,12 @@ public class BubukMinuman {
     String jenis ;
     double harga ;
     
-    
+    void cetakInfo (){
+        System.out.println("Merk \t: "+merk+"\n"+
+                           "Rasa \t: "+rasa+"\n"+
+                           "Jenis \t: "+jenis+"\n"+
+                            "Harga \t:  "+harga) ;
+    }
     
     
 }
