@@ -35,6 +35,13 @@ public class BubukMinumanAksi {
               System.out.println("Sedotan : "+Tt.getSedotan());
               Tt.throttle ();
               
+              BahanBaku Mn = new BahanBaku ();
+            
+           Mn.setGula("Cair");
+           Mn.setBubukpowder("xxxxx");
+           Mn.setPerasa("Choco");
+            Mn.cetakInfo ();
+              System.out.println("Gula : "+Mn.getGula());
                     
         }
     
