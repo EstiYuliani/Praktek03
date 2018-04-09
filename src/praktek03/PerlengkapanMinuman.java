@@ -8,4 +8,22 @@ public class PerlengkapanMinuman extends BubukMinuman{
     void throttle(){
         System.out.println ("GERRRRR..............");
     }
+
+    public String getGelasMinum() {
+        return gelasMinum;
+    }
+
+    public void setGelasMinum(String gelasMinum) {
+        this.gelasMinum = gelasMinum;
+    }
+
+    public String getSedotan() {
+        return sedotan;
+    }
+
+    public void setSedotan(String sedotan) {
+        this.sedotan = sedotan;
+    }
+
+    
 }
