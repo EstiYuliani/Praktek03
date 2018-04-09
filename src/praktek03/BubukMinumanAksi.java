@@ -12,7 +12,15 @@ public class BubukMinumanAksi {
                    ;
             Hatta.cetakInfo ();
             
-            
+             System.out.print("Merknya \t: ");
+             System.out.println(Hatta.getMerk());
+              System.out.print("Rasanya \t: ");
+              System.out.println(Hatta.getRasa());
+               System.out.print("Jenisnya \t: ");
+               System.out.println(Hatta.getJenis());
+                System.out.print("Harganya \t: ");
+                System.out.println(Hatta.getHarga());
+              
                     
         }
     
