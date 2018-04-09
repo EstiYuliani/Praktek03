@@ -3,10 +3,10 @@ package praktek03;
 
 public class BubukMinuman {
     
-    String merk;
-    String rasa ;
-    String jenis ;
-    double harga ;
+    private String merk;
+    private String rasa ;
+    private String jenis ;
+    private double harga ;
     
     void cetakInfo (){
         System.out.println("Merk \t: "+merk+"\n"+
